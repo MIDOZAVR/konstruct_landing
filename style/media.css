@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px){
+  .navbar__flex{
+    padding: 0 15px;
+  }
+  .navbar__logo{
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 480px){
+  .h1-text{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .navbar__menu>a{
+    padding-right: 15px;
+  }
+}
