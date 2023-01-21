@@ -1,3 +1,15 @@
+@media screen and (max-width: 1024px){
+  .about__story{
+    flex-wrap: wrap;
+  }
+  .about__story-text{
+    width: 100%;
+    padding: 0 15px;
+  }
+  .about__story-cards{
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 768px){
   .navbar__flex{
     padding: 0 15px;
@@ -13,5 +25,16 @@
   }
   .navbar__menu>a{
     padding-right: 15px;
+  }
+  .about__story-cards{
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+  }
+  .about__story-cards-item:last-child{
+    margin: 15px;
+  }
+  .about__story-cards-item{
+    margin: 15px;
   }
 }
