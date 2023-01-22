@@ -47,6 +47,7 @@ body{
 .p-text {
   font-size: 16px;
   line-height: 19px;
+  color: var(--accent-color-text2);
 }
 .p-scroll {
   font-size: 11px;
@@ -87,6 +88,7 @@ body{
 }
 .about{
   text-align: center;
+  padding-bottom: 120px;
 }
 .h3-text {
   text-transform: uppercase;
@@ -146,6 +148,9 @@ body{
 .about__story-cards-item:last-child {
   margin-right: 0;
 }
+.img{
+  background-repeat: no-repeat;
+}
 .about__story-cards-item:nth-child(1) {
   background-image: url(../img/card-1.png);
 }
@@ -155,3 +160,95 @@ body{
 .about__story-cards-item:nth-child(3) {
   background-image: url(../img/card-3.png);
 }
+.services {
+  padding-bottom: 115px;
+}
+.services__flex{
+  display: flex;
+}
+.h3-text {
+}
+.p-text-services{
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: var(--accent-color-text2);
+  margin-right: 32px;
+}
+.h3-text-services{
+  display: block;
+  width: 200px;
+  margin-right: 150px;
+}
+.span-line-services {
+  margin: 0 0 80px 0;
+}
+.btn {
+  min-width: 150px;
+  min-height: 40px;
+  max-height: 40px;
+  background-color: var(--accent-color-hover);
+  color: var(--accent-color-text1);
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.sevices__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
+}
+.services__grid-item {
+  border: 0.1em solid var(--accent-color-text2);
+  padding: 40px 25px;
+}
+.services-ico{
+  width: 66px;
+  height: 75px;
+}
+.get-in-touch{
+  background-image: url(../img/bg-get-in.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 232px;
+}
+.h2-text {
+  font-family: 'OpenSans' sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: var(--accent-color-text2);
+  
+}
+.newsletter{
+  background-color: #171819;
+}
+.newsletter__flex {
+  display: flex;
+  justify-content: space-around;
+}
+.newsletter-text {
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.846154px;
+  color: var(--accent-color-text1);
+  font-weight: 800;
+}
+.newsletter-input {
+  min-width: 250px;
+  min-height: 40px;
+  max-height: 40px;
+  display: inline-block;
+  border: none;
+  padding: 0;
+}
+.btn-signup{
+  padding: 0;
+}
+
