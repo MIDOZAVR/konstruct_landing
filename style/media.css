@@ -31,6 +31,20 @@
   .sevices__grid{
     grid-template-columns: 1fr;
   }
+  .newsletter__flex{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .form{
+    padding-top: 15px;
+    margin-bottom: 30px;
+  }
+  .newsletter-input{
+    min-width: 50px;
+    max-width: 150px;
+  }
 }
 @media screen and (max-width: 480px){
   .h1-text{
